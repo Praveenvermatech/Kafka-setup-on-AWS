@@ -3,7 +3,7 @@ Apache Kafka Setup on AWS.
 
 Prerequisites
 # 1) Create an EC2 Instance
-Steps for creating an AWS instance are clearly mentioned in the official AWS documentation; check here.
+Steps for creating an AWS instance are clearly mentioned in the official AWS documentation; choose must be instance Type: t2.medium not t2:micro bcz very less of memory. but Kafka is using more memory configuration.
 
 # 2) Install Java 8
 Since we will be working with the Kafka binary for Scala 2.12, our instance must have Java 8. By default, the EC2 instances have Java 7. You may check and upgrade the Java version to 8 on your instance by following the steps here.
